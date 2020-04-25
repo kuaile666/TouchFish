@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/JavaNotes/JavaNotes.iml" filepath="$PROJECT_DIR$/JavaNotes/JavaNotes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PropertiesEncrypt/PropertiesEncrypt.iml" filepath="$PROJECT_DIR$/PropertiesEncrypt/PropertiesEncrypt.iml" />
       <module fileurl="file://$PROJECT_DIR$/TouchFish.iml" filepath="$PROJECT_DIR$/TouchFish.iml" />
     </modules>
   </component>

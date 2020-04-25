@@ -7,10 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="JavaNotes" />
+        <module name="PropertiesEncrypt" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="JavaNotes" target="1.8" />
+      <module name="PropertiesEncrypt" target="1.8" />
       <module name="TouchFish" target="1.8" />
     </bytecodeTargetLevel>
   </component>
