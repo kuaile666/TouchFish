@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bb906592-c120-4f0b-9ab0-a3f6084a345f" name="Default" comment="">
+    <list default="true" id="bb906592-c120-4f0b-9ab0-a3f6084a345f" name="Default" comment="2">
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaNotes/JavaNotes.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaNotes/JavaNotes.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PropertiesEncrypt/PropertiesEncrypt.iml" beforeDir="false" afterPath="$PROJECT_DIR$/PropertiesEncrypt/PropertiesEncrypt.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PropertiesEncrypt/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/PropertiesEncrypt/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PropertiesEncrypt/src/main/java/com/codeduck/RunApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/PropertiesEncrypt/src/main/java/com/codeduck/RunApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TouchFish.iml" beforeDir="false" afterPath="$PROJECT_DIR$/TouchFish.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +31,14 @@
         <option name="mavenHome" value="$PROJECT_DIR$/../../devSoftwares/apache-maven-3.5.4" />
       </MavenGeneralSettings>
     </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="downloadAnnotationsAutomatically" value="true" />
+        <option name="downloadDocsAutomatically" value="true" />
+        <option name="downloadSourcesAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
   </component>
   <component name="ProjectId" id="1b1cDyNYLgmwFtAY7Q3Q6L7sx4m" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -37,21 +49,25 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="H:/DemoProjects" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="H:/DemoProjects" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\llk\demos\TouchFish\JavaNotes\notes" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.MyTest.test">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -65,9 +81,56 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MyTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PropertiesEncrypt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.codeduck.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.codeduck" />
+      <option name="MAIN_CLASS_NAME" value="com.codeduck.MyTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyTest.testEncrypt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PropertiesEncrypt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.codeduck.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.codeduck" />
+      <option name="MAIN_CLASS_NAME" value="com.codeduck.MyTest" />
+      <option name="METHOD_NAME" value="testEncrypt" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RunApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="PropertiesEncrypt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.codeduck.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.codeduck.RunApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -90,6 +153,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MyTest.test" />
+        <item itemvalue="JUnit.MyTest.testEncrypt" />
+        <item itemvalue="Spring Boot.RunApplication" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -102,7 +172,7 @@
       <option name="presentableId" value="Default" />
       <updated>1587610981459</updated>
       <workItem from="1587610984268" duration="1957000" />
-      <workItem from="1587802928540" duration="341000" />
+      <workItem from="1587802928540" duration="5369000" />
     </task>
     <task id="LOCAL-00001" summary="初始化">
       <created>1587611749812</created>
@@ -111,7 +181,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587611749812</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="2">
+      <created>1587803555582</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1587803555582</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -119,62 +196,85 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="初始化" />
-    <option name="LAST_COMMIT_MESSAGE" value="初始化" />
+    <MESSAGE value="2" />
+    <option name="LAST_COMMIT_MESSAGE" value="2" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="0" y="0" key="#Project_Structure" timestamp="1587804470128">
+      <screen x="0" y="0" width="1024" height="738" />
+    </state>
+    <state x="0" y="0" key="#Project_Structure/0.0.1024.738@0.0.1024.738" timestamp="1587804470128" />
+    <state x="317" y="74" key="#com.intellij.ide.util.MemberChooser" timestamp="1587805987883">
+      <screen x="0" y="0" width="1024" height="738" />
+    </state>
+    <state x="317" y="74" key="#com.intellij.ide.util.MemberChooser/0.0.1024.738@0.0.1024.738" timestamp="1587805987883" />
+    <state x="110" y="0" key="CommitChangelistDialog2" timestamp="1587803554949">
+      <screen x="0" y="0" width="1024" height="738" />
+    </state>
+    <state x="110" y="0" key="CommitChangelistDialog2/0.0.1024.738@0.0.1024.738" timestamp="1587803554949" />
+    <state width="981" height="335" key="GridCell.Tab.0.bottom" timestamp="1587807951436">
+      <screen x="0" y="0" width="1024" height="738" />
+    </state>
+    <state width="981" height="335" key="GridCell.Tab.0.bottom/0.0.1024.738@0.0.1024.738" timestamp="1587807951436" />
+    <state width="981" height="335" key="GridCell.Tab.0.center" timestamp="1587807951436">
+      <screen x="0" y="0" width="1024" height="738" />
+    </state>
+    <state width="981" height="335" key="GridCell.Tab.0.center/0.0.1024.738@0.0.1024.738" timestamp="1587807951436" />
+    <state width="981" height="335" key="GridCell.Tab.0.left" timestamp="1587807951436">
+      <screen x="0" y="0" width="1024" height="738" />
+    </state>
+    <state width="981" height="335" key="GridCell.Tab.0.left/0.0.1024.738@0.0.1024.738" timestamp="1587807951436" />
+    <state width="981" height="335" key="GridCell.Tab.0.right" timestamp="1587807951436">
+      <screen x="0" y="0" width="1024" height="738" />
+    </state>
+    <state width="981" height="335" key="GridCell.Tab.0.right/0.0.1024.738@0.0.1024.738" timestamp="1587807951436" />
+    <state width="981" height="335" key="GridCell.Tab.1.bottom" timestamp="1587807951436">
+      <screen x="0" y="0" width="1024" height="738" />
+    </state>
+    <state width="981" height="335" key="GridCell.Tab.1.bottom/0.0.1024.738@0.0.1024.738" timestamp="1587807951436" />
+    <state width="981" height="335" key="GridCell.Tab.1.center" timestamp="1587807951436">
+      <screen x="0" y="0" width="1024" height="738" />
+    </state>
+    <state width="981" height="335" key="GridCell.Tab.1.center/0.0.1024.738@0.0.1024.738" timestamp="1587807951436" />
+    <state width="981" height="335" key="GridCell.Tab.1.left" timestamp="1587807951436">
+      <screen x="0" y="0" width="1024" height="738" />
+    </state>
+    <state width="981" height="335" key="GridCell.Tab.1.left/0.0.1024.738@0.0.1024.738" timestamp="1587807951436" />
+    <state width="981" height="335" key="GridCell.Tab.1.right" timestamp="1587807951436">
+      <screen x="0" y="0" width="1024" height="738" />
+    </state>
+    <state width="981" height="335" key="GridCell.Tab.1.right/0.0.1024.738@0.0.1024.738" timestamp="1587807951436" />
+    <state width="981" height="340" key="GridCell.Tab.2.bottom" timestamp="1587806822560">
+      <screen x="0" y="0" width="1024" height="738" />
+    </state>
+    <state width="981" height="340" key="GridCell.Tab.2.bottom/0.0.1024.738@0.0.1024.738" timestamp="1587806822560" />
+    <state width="981" height="340" key="GridCell.Tab.2.center" timestamp="1587806822560">
+      <screen x="0" y="0" width="1024" height="738" />
+    </state>
+    <state width="981" height="340" key="GridCell.Tab.2.center/0.0.1024.738@0.0.1024.738" timestamp="1587806822560" />
+    <state width="981" height="340" key="GridCell.Tab.2.left" timestamp="1587806822560">
+      <screen x="0" y="0" width="1024" height="738" />
+    </state>
+    <state width="981" height="340" key="GridCell.Tab.2.left/0.0.1024.738@0.0.1024.738" timestamp="1587806822560" />
+    <state width="981" height="340" key="GridCell.Tab.2.right" timestamp="1587806822560">
+      <screen x="0" y="0" width="1024" height="738" />
+    </state>
+    <state width="981" height="340" key="GridCell.Tab.2.right/0.0.1024.738@0.0.1024.738" timestamp="1587806822560" />
+    <state x="92" y="103" key="IDE.errors.dialog" timestamp="1587807461908">
+      <screen x="0" y="0" width="1024" height="738" />
+    </state>
+    <state x="92" y="103" key="IDE.errors.dialog/0.0.1024.738@0.0.1024.738" timestamp="1587807461908" />
+    <state x="42" y="24" key="Maven.ArtifactSearchDialog" timestamp="1587804353748">
+      <screen x="0" y="0" width="1024" height="738" />
+    </state>
+    <state x="42" y="24" key="Maven.ArtifactSearchDialog/0.0.1024.738@0.0.1024.738" timestamp="1587804353748" />
+    <state x="13" y="13" key="SettingsEditor" timestamp="1587804265004">
+      <screen x="0" y="0" width="1024" height="738" />
+    </state>
+    <state x="13" y="13" key="SettingsEditor/0.0.1024.738@0.0.1024.738" timestamp="1587804265004" />
     <state x="0" y="0" key="new project wizard" timestamp="1587803026520">
       <screen x="0" y="0" width="1024" height="738" />
     </state>
     <state x="0" y="0" key="new project wizard/0.0.1024.738@0.0.1024.738" timestamp="1587803026520" />
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>

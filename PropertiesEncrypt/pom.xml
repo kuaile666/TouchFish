@@ -3,7 +3,7 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-       <artifactId>TouchFish</artifactId>
+        <artifactId>TouchFish</artifactId>
         <groupId>com.codeduck</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
@@ -12,5 +12,17 @@
     <artifactId>PropertiesEncrypt</artifactId>
 
 
-
+    <dependencies>
+        <!--        配置文件加密组件-->
+        <dependency>
+            <groupId>com.github.ulisesbocchio</groupId>
+            <artifactId>jasypt-spring-boot-starter</artifactId>
+            <version>2.1.1</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
 </project>
