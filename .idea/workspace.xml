@@ -1,14 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bb906592-c120-4f0b-9ab0-a3f6084a345f" name="Default" comment="2">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="bb906592-c120-4f0b-9ab0-a3f6084a345f" name="Default" comment="配置文件密码加密">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaNotes/JavaNotes.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaNotes/JavaNotes.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PropertiesEncrypt/PropertiesEncrypt.iml" beforeDir="false" afterPath="$PROJECT_DIR$/PropertiesEncrypt/PropertiesEncrypt.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PropertiesEncrypt/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/PropertiesEncrypt/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PropertiesEncrypt/src/main/java/com/codeduck/RunApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/PropertiesEncrypt/src/main/java/com/codeduck/RunApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TouchFish.iml" beforeDir="false" afterPath="$PROJECT_DIR$/TouchFish.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -172,7 +167,8 @@
       <option name="presentableId" value="Default" />
       <updated>1587610981459</updated>
       <workItem from="1587610984268" duration="1957000" />
-      <workItem from="1587802928540" duration="5369000" />
+      <workItem from="1587802928540" duration="5698000" />
+      <workItem from="1587862998691" duration="592000" />
     </task>
     <task id="LOCAL-00001" summary="初始化">
       <created>1587611749812</created>
@@ -188,7 +184,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587803555582</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="配置文件密码加密">
+      <created>1587808610032</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1587808610032</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -197,7 +200,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="初始化" />
     <MESSAGE value="2" />
-    <option name="LAST_COMMIT_MESSAGE" value="2" />
+    <MESSAGE value="配置文件密码加密" />
+    <option name="LAST_COMMIT_MESSAGE" value="配置文件密码加密" />
   </component>
   <component name="WindowStateProjectService">
     <state x="0" y="0" key="#Project_Structure" timestamp="1587804470128">
@@ -208,10 +212,10 @@
       <screen x="0" y="0" width="1024" height="738" />
     </state>
     <state x="317" y="74" key="#com.intellij.ide.util.MemberChooser/0.0.1024.738@0.0.1024.738" timestamp="1587805987883" />
-    <state x="110" y="0" key="CommitChangelistDialog2" timestamp="1587803554949">
+    <state x="18" y="0" key="CommitChangelistDialog2" timestamp="1587808609452">
       <screen x="0" y="0" width="1024" height="738" />
     </state>
-    <state x="110" y="0" key="CommitChangelistDialog2/0.0.1024.738@0.0.1024.738" timestamp="1587803554949" />
+    <state x="18" y="0" key="CommitChangelistDialog2/0.0.1024.738@0.0.1024.738" timestamp="1587808609452" />
     <state width="981" height="335" key="GridCell.Tab.0.bottom" timestamp="1587807951436">
       <screen x="0" y="0" width="1024" height="738" />
     </state>
@@ -272,6 +276,10 @@
       <screen x="0" y="0" width="1024" height="738" />
     </state>
     <state x="13" y="13" key="SettingsEditor/0.0.1024.738@0.0.1024.738" timestamp="1587804265004" />
+    <state x="104" y="102" key="Vcs.Push.Dialog.v2" timestamp="1587808619535">
+      <screen x="0" y="0" width="1024" height="738" />
+    </state>
+    <state x="104" y="102" key="Vcs.Push.Dialog.v2/0.0.1024.738@0.0.1024.738" timestamp="1587808619535" />
     <state x="0" y="0" key="new project wizard" timestamp="1587803026520">
       <screen x="0" y="0" width="1024" height="738" />
     </state>
